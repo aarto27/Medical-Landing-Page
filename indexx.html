@@ -408,13 +408,17 @@
     <script src="swiper-init.js"></script>
 
 
-    <script>
+     <script>
         var swiper = new Swiper(".imgSwiper", {
             navigation: {
                 nextEl: ".swiper-button-Next",
                 prevEl: ".swiper-button-Prev",
             },
             loop: true,
+            autoplay: {
+        delay: 3000,  
+        disableOnInteraction: false, 
+    },
             breakpoints: {
                 640: {
                     slidesPerView: 1,
