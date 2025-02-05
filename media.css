@@ -12,7 +12,6 @@
     .doc-nav-btn1 {
         display: none;
     }
-
     #doc-header-first img {
         width: 100%;
     }
@@ -264,9 +263,24 @@
         gap: 9%;
     }
     .feedback img {
-        margin-left: 0%;
+        width: 100%;
     }
     .main-page-dusradoc img{
         width: inherit;
+    }
+    #doc-header-first img{
+        width: 26%;
+    }
+    .doc-nav-content {
+        max-width: 100%;
+    }
+    .naya{
+        max-width: 100%;
+    }
+    .index{
+        gap: 2%;
+    }
+    #doc-header-first {
+        justify-content:start;
     }
 }
