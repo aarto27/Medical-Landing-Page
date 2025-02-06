@@ -1,5 +1,8 @@
 @media (max-width: 500px) {
 
+    .index-left{
+        width: 315px;
+    }
     .doc-nav-content {
         padding: 0;
         max-width: 100%;
@@ -11,9 +14,6 @@
 
     .doc-nav-btn1 {
         display: none;
-    }
-    #doc-header-first img {
-        width: 100%;
     }
     #LOGO {
         width: 24%;
@@ -28,7 +28,7 @@
 
     .doc-nav-item {
         margin: 0 10px;
-        gap: 48px;
+        gap: 134px;
         justify-content: center;
     }
 
@@ -269,7 +269,7 @@
         width: inherit;
     }
     #doc-header-first img{
-        width: 26%;
+        width: 100px;
     }
     .doc-nav-content {
         max-width: 100%;
