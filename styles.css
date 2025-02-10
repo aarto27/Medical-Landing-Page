@@ -4,15 +4,12 @@
 html,
 body {
     overflow-x: hidden;
-    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
-}
-
-#time {
-    width: 40%;
 }
 
 .doc-nav-content {
@@ -37,6 +34,9 @@ a {
     gap: 10px;
     justify-content: center;
     align-items: center;
+}
+.main-page--photo2{
+    display: none;
 }
 
 #doc-header-first img {
@@ -242,10 +242,6 @@ a {
     left: 0%;
 }
 
-.swiper-slide {
-    margin-right: 100px;
-}
-
 .box {
     display: flex;
     justify-content: center;
@@ -343,15 +339,8 @@ a {
 
 #swiper-btn {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.main-page-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .main-p-head-btn {
     border: none;
@@ -419,6 +408,7 @@ a {
 }
 
 .contact-us input {
+    width: 300px;
     padding: 20px;
     border: 1px solid #0000000d;
     border-radius: 10px;
@@ -501,7 +491,9 @@ a {
     font-size: 16px;
 }
 
-
+.Mfooter-1content{
+    width: 215px;
+}
 
 #email {
     background-color: #12CCF41A;
