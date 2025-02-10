@@ -1,12 +1,14 @@
 @media (max-width: 500px) {
 
     .index-left{
-        width: 315px;
+        width: 282px;
+        margin: 16px;
     }
     .doc-nav-content {
         padding: 0;
         max-width: 100%;
     }
+    
 
     .doc-header-sec a {
         display: none;
@@ -19,16 +21,12 @@
         width: 24%;
     }
 
-    #time{
-        width: 75%;
-    }
     .nav-a {
         display: block;
     }
 
     .doc-nav-item {
-        margin: 0 10px;
-        gap: 134px;
+        gap: 130px;
         justify-content: center;
     }
 
@@ -45,12 +43,9 @@
         display: none;
     }
 
-    .main-page--photo1 {
-        display: block;
-    }
-
-    .main-page--photo1 img {
+   .main-page--photo1{
         width: 300px;
+        display: block;
     }
 
     .index-left p {
@@ -92,13 +87,9 @@
         font-weight: 500;
         line-height: 24px;
     }
-    .main-page-header {/* Stack items vertically */
-        align-items: flex-start;  /* Align items to the left */
+    .main-page-header {
         padding: 5px;
       }
-    .main-page-header > * { /*to apply to all children*/
-         margin-bottom:10px;
-    }
     .PIC22 {
         display: none;
     }
@@ -202,10 +193,6 @@
         padding: 0;
     }
 
-    .Mfooter-1content {
-        position: relative;
-    }
-
     .footer-1c {
         position: relative;
     }
@@ -234,7 +221,6 @@
     .footer-last {
         flex-direction: column;
         color: #0621264D;
-        width: 100%;
         position: relative;
         justify-content: start;
         align-items: start;
@@ -247,21 +233,28 @@
         justify-content: center;
         align-items: start;
     }
+    .contact-us input{
+        width: 256px;
+    }
+    footer{
+        margin: 16px;
+    }
+    .footer-last{
+        margin: 16px ;
+     }
+     .Mfooter-1content{
+        width: 225px;
+    }
 }
 
 @media (max-width: 1200px){
     .hospital{
         width: 100%;
     }
-    footer{
-        gap:1%;
-    }
     .Mfooter-2content{
         margin-right: 9px;
     }
-    .footer-last{
-        gap: 9%;
-    }
+   
     .feedback img {
         width: 100%;
     }
@@ -283,4 +276,8 @@
     #doc-header-first {
         justify-content:start;
     }
+    .index-right{
+        display: block;
+    }
+    
 }
