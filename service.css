@@ -4,6 +4,9 @@ a {
     text-decoration: none;
 }
 
+body{
+    margin: 0;
+}
 .main{
     text-align: start;
 }
@@ -50,7 +53,7 @@ a {
     font-weight: 800;
 }
 
-.doc-img img{
+.doc-img{
     width: 100%;
 }
 .section {
@@ -77,6 +80,7 @@ a {
     font-weight: 700;
 }
 #whyus{
+    text-align:center;
     font-size: 40px;
     font-weight: 700;
     color: #062126;
@@ -271,9 +275,9 @@ a {
 }
 
 .footer-last {
-    padding: 10px;
+    color:#0621264D;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 30%;
 }
