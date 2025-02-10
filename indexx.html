@@ -43,9 +43,8 @@
         </header><br>
         <div class="index">
             <div class="index-left">
-                <figure class="main-page--photo1">
-                    <img src="./photo/main-page--photo1.png" alt="">
-                </figure>
+                    <img src="./photo/main-page--photo1.png" class="main-page--photo1" alt="">
+                    <img src="Rectangle 1.png" class="main-page--photo2" alt="">
                 <h1>Feel Comfort
                     Be Healthy</h1>
                 <p1>Our professional team will take care of you, we value your time and health.</p1>
@@ -420,6 +419,11 @@
                 disableOnInteraction: false,
             },
             breakpoints: {
+                500: {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                },
+
                 640: {
                     slidesPerView: 1.5,
                     spaceBetween: 10,
@@ -429,9 +433,13 @@
                     spaceBetween: 70,
                 },
                 1024: {
-                    slidesPerView: 4,
+                    slidesPerView: 3,
                     spaceBetween: 300,
                 },
+                1440: {
+                    slidesPerView: 3,
+                    spaceBetween: 300,
+                }
             },
         });
     </script>
