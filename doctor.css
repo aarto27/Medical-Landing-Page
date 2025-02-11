@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+body{
+    margin: 0;
+    padding: 0;
+}
 a{
     text-decoration: none;
 }
@@ -204,6 +208,7 @@ input textarea:focus {
 footer {
     display: flex;
     justify-content: space-between;
+    margin: 16px;
 }
 
 .footer-1c {
@@ -244,6 +249,11 @@ footer {
     font-weight: 500;
     font-size: 16px;
 }
+
+.Mfooter-1content{
+    width: 215px;
+}
+
 #email{
     background-color: #12CCF41A;
     padding: 15px;
@@ -265,6 +275,7 @@ footer {
     justify-content: space-between;
     color: #06212666;
     font-size: 14px;
+    margin: 5px;
 }
 .last-doc{
     display: flex;
