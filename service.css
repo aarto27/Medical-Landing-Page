@@ -107,13 +107,13 @@ body{
     font-weight: 400;
     font-size: 15px;
     line-height: 23.38px;
-    width: 492px;
-    height: 69px;
+    width: 416px;
+    height: 80px;
 }
-
 .contact-us {
     background-color: #FFFFFF;
     margin: 80px auto;
+    max-width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,16 +125,17 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 638px;
 }
 
 .input-div {
     display: flex;
     gap: 20px;
-    width: 125%;
     height: 3%;
 }
 
 .doc-p-input {
+    width: 94%;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -143,11 +144,9 @@ body{
 
 .contact-us input {
     padding: 20px;
-    border: 1px solid #0000000d;
+    border: none;
     border-radius: 10px;
-    width: 100%;
     margin: 10px;
-    transition: border-color 0.3s ease;
 }
 
 .doc-p-btn {
@@ -168,7 +167,6 @@ body{
     padding: 20px;
     border: 1px solid #0000000D;
     border-radius: 10px;
-    width: 114%;
     margin: 10px;
     outline: none;
     transition: 0.3s ease;
@@ -190,7 +188,7 @@ footer {
     font-size: 20px;
     font-weight: 600;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
