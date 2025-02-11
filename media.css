@@ -281,3 +281,17 @@
     }
     
 }
+
+@media (max-width: 800px) {
+    .main-page-content2 div{
+        width: 200px;
+    }
+
+    .index-right img {
+        width: 99%;
+    }
+
+    .index-left {
+        width: 600px;
+    }
+}
