@@ -152,18 +152,17 @@ a{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 638px;
 }
 
 .input-div {
     display: flex;
     gap: 20px;
-    width: 125%;
     height: 3%;
 }
 
 .doc-p-input {
-    width: 116%;
-    height: 100%;
+    width: 94%;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -172,10 +171,9 @@ a{
 
 .contact-us input {
     padding: 20px;
-    border: 1px solid #0000000d;
+    border: none;
     border-radius: 10px;
     margin: 10px;
-    transition: border-color 0.3s ease;
 }
 
 .doc-p-btn {
@@ -188,7 +186,6 @@ a{
     align-items: center;
     padding: 15px;
     border: none;
-    height: 49px;
     border-radius: 35px;
 }
 
