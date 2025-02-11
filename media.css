@@ -39,7 +39,7 @@
         line-height: 55.68px;
     }
 
-     .index-right img{
+    .index-right img{
         display: none;
     }
 
@@ -282,16 +282,13 @@
     
 }
 
+
 @media (max-width: 800px) {
     .main-page-content2 div{
         width: 200px;
     }
 
-    .index-right img {
-        width: 99%;
-    }
-
     .index-left {
-        width: 600px;
+        width: 655px;
     }
 }
