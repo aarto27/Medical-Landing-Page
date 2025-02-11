@@ -98,18 +98,16 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 638px;
 }
 
 .input-div {
     display: flex;
     gap: 20px;
-    width: 125%;
     height: 3%;
 }
 
 .doc-p-input {
-    width: 116%;
-    height: 100%;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -172,14 +170,14 @@ footer {
 
 .footer-2c {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
 }
 
 .foot-fig {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 11%;
     padding: 10px;
     margin: 10px;
     background-color: #0621261A;
@@ -211,12 +209,13 @@ a {
     width: 215px;
 }
 
+
 #email {
     background-color: #12CCF41A;
     padding: 15px;
     border-radius: 30px;
-    margin: -10px;
     border: none;
+    margin: -10px;
 }
 
 #main-last-btn {
@@ -258,6 +257,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #0621264D;
 }
 
 .footer-last-doc {
