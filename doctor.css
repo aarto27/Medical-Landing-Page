@@ -221,6 +221,7 @@ footer {
 
 .footer-2c {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .foot-fig {
@@ -346,4 +347,114 @@ footer {
     .landing-img{
         display: none;
     }
+}
+
+@media (max-width: 500px){
+    .doc-nav-content{
+        width: 100%;
+    }
+
+    .doc-nav-btn{
+        display: none;
+    }
+    #doc-header-first{
+        gap: 0;
+    }
+    #doc-header-first img{
+        width: 35px;
+    }
+    .doc-header-sec a{
+        display: none;
+    }
+    .doc-list-item{
+        display: block;
+    }
+    .doc-img1 {
+        width: 300px;
+    }
+
+    .doc-list{
+        text-align: center;
+    }
+    .doc-info{
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .carousel{
+        padding: 0px 20px;
+    }
+    /* Form */
+    .input-div{
+        display: block;
+    }
+    .contact-us form{
+        width: auto;
+    }
+    .contact-us input{
+        width: 256px;
+    }
+    /* Footer */
+    footer {
+        flex-direction: column;
+        width: 100%;
+        align-items: start;
+        justify-content: start;
+        padding: 0;
+    }
+
+    .footer-1c {
+        position: relative;
+    }
+
+    .Mfooter-2content {
+        position: relative;
+    }
+
+    .Mfooter-2content list {
+        font-size: 26px;
+    }
+
+    .Mfooter-3content {
+        width: 80%;
+    }
+
+    .Mfooter-3content list {
+        font-size: 17px;
+    }
+
+    #email {
+        position: relative;
+    }
+
+    .footer-last {
+        flex-direction: column;
+        color: #0621264D;
+        position: relative;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .footer-last-doc {
+        flex-direction: column;
+        gap: 0px;
+        position: relative;
+        justify-content: center;
+        align-items: start;
+    }
+    footer{
+        margin: 0px;
+    }
+    .footer-last{
+        margin: 16px ;
+     }
+     .Mfooter-1content{
+        width: 225px;
+     }
+     .main-last{
+        display: block;
+     }
+     .last-doc{
+        display: block;
+     }
 }
