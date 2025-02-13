@@ -31,6 +31,21 @@ body {
     align-items: center;
 }
 
+.nav-a {
+    display: none;
+    text-decoration: none;
+    border: 2px solid lightblue;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .doc-header-sec a {
     padding: 7px;
     font-size: 16px;
@@ -279,4 +294,122 @@ a {
         justify-content: center;
         gap: 7%;
     }
+}
+
+
+@media (max-width: 500px){
+    /* Nav Bar */
+    .doc-nav-content{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .doc-nav-btn{
+        display: none;
+    }
+    .nav-a {
+        display: block;
+    }
+    #doc-header-first{
+        gap: 0;
+    }
+    #doc-header-first img{
+        width: 35px;
+    }
+    .doc-header-sec a{
+        display: none;
+    }
+    .doc-list-item{
+        display: block;
+    }
+    .doc-img img {
+        height: 100px;
+    }
+
+    .doc-list{
+        text-align: center;
+    }
+    .doc-info{
+        max-width: 90%;
+        margin: auto;
+    }
+    .contact-us h1{
+        font-size: 25px;
+    }
+
+    .carousel{
+        padding: 0px 12px;
+    }
+    /* Form */
+    .input-div{
+        display: block;
+    }
+    .contact-us form{
+        width: auto;
+    }
+    .contact-us input{
+        width: 256px;
+    }
+    /* Footer */
+    footer {
+        flex-direction: column;
+        width: 100%;
+        align-items: start;
+        justify-content: start;
+        padding: 0;
+    }
+
+    .footer-1c {
+        position: relative;
+    }
+    .Mfooter-2content {
+        position: relative;
+    }
+
+    .Mfooter-2content list {
+        font-size: 26px;
+    }
+
+    .Mfooter-3content {
+        width: 80%;
+    }
+
+    .Mfooter-3content list {
+        font-size: 17px;
+    }
+
+    #email {
+        position: relative;
+    }
+
+    .footer-last {
+        flex-direction: column;
+        color: #0621264D;
+        position: relative;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .footer-last-doc {
+        flex-direction: column;
+        gap: 0px;
+        position: relative;
+        justify-content: center;
+        align-items: start;
+    }
+    footer{
+        margin: 0px;
+    }
+    .footer-last{
+        margin: 16px ;
+     }
+     .Mfooter-1content{
+        width: 225px;
+     }
+     .main-last{
+        display: block;
+     }
+     .last-doc{
+        display: block;
+     }
 }
