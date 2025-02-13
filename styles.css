@@ -8,10 +8,13 @@ body {
     padding: 0;
 }
 
+
 a {
     text-decoration: none;
 }
-
+.moon{
+    display: none;
+}
 .doc-nav-content {
     display: flex;
     justify-content: space-around;
@@ -366,6 +369,9 @@ a {
     border-radius: 10px;
 }
 
+.main-page-content2 div{
+    width: 300px;
+}
 .contact-us h1 {
     color: #062126;
     font-size: 40px;
@@ -391,6 +397,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 638px;
 }
 
 .input-div {
