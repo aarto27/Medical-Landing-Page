@@ -191,7 +191,6 @@ a{
 }
 
 #description {
-    width: 256px;
     padding: 20px;
     border: 1px solid #0000000D;
     border-radius: 10px;
@@ -199,6 +198,7 @@ a{
     outline: none;
     transition: 0.3s ease;
 }
+
 .doc-p-btn {
     color: white;
     font-size: 14px;
@@ -421,6 +421,9 @@ footer {
         width: auto;
     }
     .contact-us input{
+        width: 256px;
+    }
+    #description{
         width: 256px;
     }
     /* Footer */
