@@ -466,7 +466,7 @@ a {
         display: none;
     }
     .doc-list-item {
-        gap: 14px;
+        gap: 14px;  
     }
 
     .doc-img{
@@ -502,6 +502,7 @@ a {
 
     /* Form */
     .input-div {
+        width: min-content;
         display: block;
     }
 
