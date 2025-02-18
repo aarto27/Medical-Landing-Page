@@ -491,6 +491,7 @@ a {
     }
     /* Form */
     .input-div{
+        width: min-content;
         display: block;
     }
     .contact-us form{
