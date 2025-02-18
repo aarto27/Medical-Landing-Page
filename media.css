@@ -58,7 +58,7 @@
     }
 
    .main-page--photo1{
-        width: 300px;
+        width: 290px;
         display: block;
     }
 
@@ -200,6 +200,7 @@
     .contact-us input{
         width: 256px;
     }
+    
     .contact-us h1{
         font-size: 30px;
     }
