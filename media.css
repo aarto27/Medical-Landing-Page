@@ -46,6 +46,7 @@
 
     .index {
         display: block;
+        width: fit-content;
     }
 
     .index-left h1 {
