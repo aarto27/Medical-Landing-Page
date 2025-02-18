@@ -98,6 +98,7 @@ body {
     font-weight: 700;
     color: #062126;
 }
+
 .contact-us {
     background-color: #FFFFFF;
     margin: 80px auto;
@@ -342,6 +343,7 @@ a {
     }
     /* Form */
     .input-div{
+        width: min-content;
         display: block;
     }
     .contact-us form{
@@ -392,7 +394,7 @@ a {
 
     .footer-last-doc {
         flex-direction: column;
-        gap: 0px;
+        gap: 0px;   
         position: relative;
         justify-content: center;
         align-items: start;
