@@ -190,6 +190,15 @@ a{
     margin: 10px;
 }
 
+#description {
+    padding: 20px;
+    border: 1px solid #0000000D;
+    border-radius: 10px;
+    margin: 10px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
 .doc-p-btn {
     color: white;
     font-size: 14px;
@@ -405,6 +414,7 @@ footer {
     }
     /* Form */
     .input-div{
+        width: min-content;
         display: block;
     }
     .contact-us form{
