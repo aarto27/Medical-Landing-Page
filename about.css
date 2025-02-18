@@ -95,7 +95,6 @@ body {
 }
 
 .section-1 img {
-    width: 329px;
     height: 216px;
 }
 
@@ -158,7 +157,7 @@ body {
 .doc-list-item {
     padding: 23px;
     border-radius: 25px;
-    background-color: rgba(255, 243, 243, 0.887);
+    background-color: rgba(255, 243, 243, 0.511);
 }
 
 .feedback1 {
@@ -613,7 +612,7 @@ a {
         display: none;
     }
     .section-1 p {
-        width: 325px;
+        width: 286px;
     }
     .section2 {
         flex-direction: column;
