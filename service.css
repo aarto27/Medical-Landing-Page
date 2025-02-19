@@ -44,6 +44,7 @@ body {
 .doc-header-sec a:hover {
     color: #E5661E;
 }
+
 .nav-a {
     display: none;
     text-decoration: none;
@@ -188,6 +189,7 @@ body {
     margin: 10px;
     transition: border-color 0.3s ease;
 }
+
 .doc-p-btn {
     color: white;
     font-size: 14px;
@@ -486,18 +488,22 @@ a {
     .feedback1 {
         display: block;
     }
-    .feedback{
+
+    .feedback {
         display: none;
     }
+
     /* Form */
-    .input-div{
+    .input-div {
         width: min-content;
         display: block;
     }
-    .contact-us form{
+
+    .contact-us form {
         width: auto;
     }
-    .contact-us input{
+
+    .contact-us input {
         width: 256px;
     }
 
@@ -515,16 +521,23 @@ a {
         position: relative;
     }
 
+    .Mfooter-1content {
+        margin-left: 10px;
+    }
+
     .Mfooter-2content {
         position: relative;
+        margin-left: 10px;
     }
 
     .Mfooter-2content list {
         font-size: 26px;
+
     }
 
     .Mfooter-3content {
         width: 80%;
+        margin-left: 10px;
     }
 
     .Mfooter-3content list {
@@ -541,6 +554,7 @@ a {
         position: relative;
         justify-content: start;
         align-items: start;
+        margin-left: 10px;
     }
 
     .footer-last-doc {
@@ -574,7 +588,8 @@ a {
         width: auto;
         line-height: 18.08px;
     }
-    .contact-us h1{
+
+    .contact-us h1 {
         font-size: 30px;
     }
 
