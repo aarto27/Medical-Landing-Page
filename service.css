@@ -485,7 +485,6 @@ a {
     /* Feedback */
     .feedback1 {
         display: block;
-        width: 100%;
     }
     .feedback{
         display: none;
