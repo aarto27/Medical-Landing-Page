@@ -29,7 +29,7 @@ a {
 
 .index-left {
     width: 481px;
-}
+}   
 
 .index-p1 {
     width: 100%;
@@ -98,7 +98,6 @@ a {
 
 .main-page-item {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -134,12 +133,14 @@ a {
     width: 90%;
 }
 
-.clinic1 {
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.First{
+    text-align: start;
 }
+
+.First p{
+    margin-top: -15px;
+}
+
 
 .main-page-item p {
     font-weight: 500;
@@ -149,6 +150,11 @@ a {
 }
 
 .clinic {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+    padding: 20px;
     text-align: center;
     background-color: #F4F5F4;
     border-radius: 30px;
@@ -276,6 +282,12 @@ a {
     color: #062126;
 }
 
+.Section-2{
+    background: url('blured.jpg') no-repeat center center/cover;
+    background-size: cover;
+    z-index: -1;
+}
+
 .Section-2 h1 {
     font-size: 40px;
     font-weight: 700;
@@ -308,9 +320,23 @@ a {
 }
 
 .doc-list-item {
+    width: 270px;
     padding: 23px;
     border-radius: 25px;
-    background-color: rgba(255, 243, 243, 0.511);
+    background-color: #FFFFFF;
+}
+
+.doc-list-item p{
+    line-height: 10px;
+    color: #06212699;
+}
+.doc-list-item h2{  
+    line-height: 10px;
+}
+
+
+.doc-pic{
+    align-items: start;
 }
 
 .feedback {
@@ -339,8 +365,10 @@ a {
     color: #12CCF4;
 }
 
-#swiper-btn {
+.swiper-btn {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main-p-head-btn {
@@ -378,6 +406,7 @@ a {
 }
 
 #whyus {
+    text-align: start;
     font-size: 40px;
     font-weight: 700;
     color: #062126;
@@ -386,11 +415,9 @@ a {
 .contact-us {
     background-color: #FFFFFF;
     margin: 80px auto;
-    max-width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
 }
 
 .contact-us form {
@@ -398,29 +425,29 @@ a {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 638px;
 }
 
 .input-div {
     display: flex;
-    gap: 20px;
-    height: 3%;
 }
 
 .doc-p-input {
+    height: 100%;
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #F7F7F7;
 }
 
 .contact-us input {
+    width: 300px;
     padding: 20px;
+    padding-left: 30px;
     border: 1px solid #0000000d;
     border-radius: 10px;
-    width: 100%;
     margin: 10px;
+    outline: none;
     transition: border-color 0.3s ease;
+    background-color: #F7F7F7;
 }
 .doc-p-btn {
     color: white;
@@ -443,6 +470,7 @@ a {
     margin: 10px;
     outline: none;
     transition: 0.3s ease;
+    background-color: #F7F7F7;
 }
 
 input textarea:focus {
@@ -500,11 +528,13 @@ a {
 }
 
 #email {
+    width: 250px;
     background-color: #12CCF41A;
     padding: 15px;
     border-radius: 30px;
     margin: -10px;
     border: none;
+    outline: none;
 }
 
 #main-last-btn {
@@ -524,14 +554,41 @@ a {
     align-items: center;
 }
 
+.newdiv{
+    display: none;
+}
+.newdiv p{
+    color: #062126B2;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 9.38px;
+}
+
+.box p {
+    color: #062126B2;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.38px;
+}
+
+.doc-details {
+    width: 950px;
+    margin: 0 auto;
+}
+
 .doc-details-info {
     margin: 20px;
+    /* padding: 20px; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;    
-    width: 252px;
-    height: 193px;
+    align-items: start;
+}
+
+.shield-border {
+    align-self: start;
+    background-color: #24BEE01A;
+    padding: 20px;
+    border-radius: 160px;
 }
 
 #doc-1 {
@@ -557,4 +614,3 @@ a {
     gap: 10px;
 }
 
- 
