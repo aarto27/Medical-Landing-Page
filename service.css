@@ -62,7 +62,7 @@ body {
 
 
 .doc-nav-btn {
-    padding: 6px 10px 6px 10px;
+    padding: 10px;
     color: white;
     border: none;
     background-color: #24BEE0;
@@ -70,6 +70,8 @@ body {
     cursor: pointer;
     font-weight: 800;
 }
+
+
 
 .doc-img {
     width: 100%;
@@ -119,7 +121,7 @@ body {
 }
 
 #whyus {
-    text-align: center;
+    text-align: start;
     font-size: 40px;
     font-weight: 700;
     color: #062126;
@@ -128,27 +130,102 @@ body {
 .carousel-item {
     text-align: start;
     margin-bottom: 20px;
+    width: 470px;
 }
 
 .carousel-item img {
-    width: 380px;
-    height: 200px;
+    width: 470px;
+    height: 250px;
     border-radius: 30px;
 }
 
-.carousel h1 {
+.carousel-item h1 {
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 500;
     color: #062126;
     position: relative;
     text-align: left;
 }
 
-.carousel p {
+.section {
+    /* width: 416px; */
+    /* background-color: #ff0000; */
+    padding: 20px;
+    border-radius: 30px;
+    margin: auto;
+
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item p {
     color: #062126B2;
     font-weight: 400;
     font-size: 15px;
-    line-height: 23.38px;
-    width: 416px;
-    height: 80px;
+    line-height: 24.38px;
+    /* width: 416px; */
+    /* height: 80px; */
+}
+
+.service-time-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    padding-left: 20px;
+    font-size: 40px;
+    background-color: #24BEE0;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.service-time-header p {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 5px;
+}
+
+.serivce-table {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #12CCF40D;
+    margin-top: -16px;
+    padding: 10px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.service-time p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 165px;
+    color: #062126CC;
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 600;
+}
+
+.service-time-p {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: start;
+
+}
+
+.service-time-p p {
+    color: #06212699;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 10px;
 }
 
 .contact-us {
@@ -164,30 +241,44 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 638px;
+    /* width: 638px; */
 }
 
 .input-div {
     display: flex;
-    gap: 20px;
-    height: 3%;
+    /* gap: 20px; */
+    /* height: 3%; */
 }
+
+/* .date-time{
+    align-items: center;
+}
+#time{
+    position: relative;
+    left: -5%;
+}
+#date{
+    position: relative;
+    left: -3%;
+}*/
 
 .doc-p-input {
     height: 100%;
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #F7F7F7;
 }
 
 .contact-us input {
     width: 300px;
     padding: 20px;
+    padding-left: 30px;
     border: 1px solid #0000000d;
     border-radius: 10px;
     margin: 10px;
+    outline: none;
     transition: border-color 0.3s ease;
+    background-color: #F7F7F7;
 }
 
 .doc-p-btn {
@@ -211,6 +302,7 @@ body {
     margin: 10px;
     outline: none;
     transition: 0.3s ease;
+    background-color: #F7F7F7;
 }
 
 input textarea:focus {
@@ -267,16 +359,19 @@ a {
     font-size: 16px;
 }
 
-.Mfooter-3content {
-    width: 290px;
+.Mfooter-3content p {
+    width: 170px;
+    color: #06212699;
 }
 
 #email {
+    width: 250px;
     background-color: #12CCF41A;
     padding: 15px;
     border-radius: 30px;
     margin: -10px;
     border: none;
+    outline: none;
 }
 
 #main-last-btn {
@@ -296,14 +391,31 @@ a {
     align-items: center;
 }
 
+.box p {
+    color: #062126B2;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.38px;
+}
+
+.doc-details {
+    width: 950px;
+    margin: 0 auto;
+}
+
 .doc-details-info {
     margin: 20px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 252px;
-    height: 193px;
+    align-items: start;
+}
+
+.shield-border {
+    align-self: start;
+    background-color: #24BEE01A;
+    padding: 20px;
+    border-radius: 160px;
 }
 
 #doc-1 {
@@ -358,7 +470,7 @@ a {
 
     .doc-header-sec a {
         font-weight: 500;
-        font-size: 13px;
+        font-size: 15px;
         line-height: 24px;
     }
 
@@ -385,7 +497,7 @@ a {
 
     .doc-header-sec a {
         font-weight: 500;
-        font-size: 13px;
+        font-size: 15px;
         line-height: 24px;
     }
 
@@ -400,6 +512,24 @@ a {
     .footer-last {
         gap: 10%;
     }
+
+    .doc-details {
+        width: 743px;
+    }
+
+    #email {
+        width: 178px;
+    }
+
+    .carousel-item {
+        margin-bottom: 30px;
+        width: 415px;
+    }
+
+    .doc-details-info {
+        padding: 0;
+    }
+
 }
 
 
@@ -461,16 +591,19 @@ a {
         width: 100%;
     }
 
+    .carousel-item {
+        width: 360px;
+    }
+
     .main {
         padding: 0;
         text-align: center;
     }
 
 
-    .carousel p {
-        width: auto;
+    /* .carousel p {
         line-height: 18.08px;
-    }
+    } */
 
 
     /* Why us */
@@ -482,6 +615,16 @@ a {
 
     .box {
         flex-direction: column;
+    }
+
+    .doc-details {
+        width: 390px;
+    }
+
+    .service-time-p p {
+        font-size: 11px;
+        font-weight: 900;
+        line-height: 10px;
     }
 
     /* Feedback */
@@ -536,16 +679,11 @@ a {
     }
 
     .Mfooter-3content {
-        width: 80%;
         margin-left: 10px;
     }
 
     .Mfooter-3content list {
         font-size: 17px;
-    }
-
-    #email {
-        position: relative;
     }
 
     .footer-last {
@@ -580,7 +718,8 @@ a {
 }
 
 @media (max-width: 350px) {
-    .carousel-item img {
+
+    /* .carousel-item img {
         width: 313px;
     }
 
@@ -591,6 +730,26 @@ a {
 
     .contact-us h1 {
         font-size: 30px;
+    } */
+    .carousel-item {
+        width: 300px;
+    }
+
+    .service-time p {
+        width: 139px;
+        font-size: 12px;
+    }
+
+    .doc-details {
+        width: 315px;
+    }
+
+    #email {
+        width: 226px;
+    }
+
+    .contact-us h1 {
+        font-size: 33px;
     }
 
 }
