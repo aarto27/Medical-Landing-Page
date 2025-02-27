@@ -17,7 +17,7 @@ a {
 
 .doc-nav-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 10px;
 }
@@ -38,7 +38,7 @@ a {
 #doc-header-first {
     display: flex;
     gap: 10px;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
@@ -85,6 +85,23 @@ a {
     justify-content: center;
     align-items: center;
 }
+/*Pop Up CSS */
+#popup{
+    display: none;
+    height: 600px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f4caca;
+    padding: 20px;
+    border: 1px solid #f59595;
+    border-radius: 10px;
+    box-shadow: 0 0 16px rgb(255, 131, 131);
+    z-index: 1;
+  }
+
 
 .doc-nav-btn {
     color: white;
