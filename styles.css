@@ -592,7 +592,8 @@ a {
 .newdiv{
     display: none;
 }
-.newdiv p{
+.newdiv p {
+    width: 210px;
     color: #062126B2;
     font-size: 14px;
     font-weight: 400;
