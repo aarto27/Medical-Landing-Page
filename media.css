@@ -127,10 +127,10 @@
     }
 
     .main-page-content2 p {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
-        line-height: 23.38px;
-        width: 200px;
+        line-height: 20.38px;
+        width: 218px;
     }
 
     footer {
@@ -140,6 +140,16 @@
 
     #main-last-btn {
         margin-left: -9%;
+    }
+
+    .footer-last{
+        display: block;
+        padding: 10px;
+    }
+
+    .footer-last-doc{
+        display: block;
+        padding: 10px;
     }
 }
 
