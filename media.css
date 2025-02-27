@@ -1,45 +1,169 @@
+@media (max-width: 1200px) {
+    .main-page--photo0 {
+        display: none;
+    }
+
+    .pixle {
+        display: none;
+    }
+
+    .hospital {
+        width: 100%;
+    }
+
+    .Mfooter-2content {
+        margin-right: 9px;
+    }
+
+    .feedback img {
+        width: 100%;
+    }
+
+    .main-page-dusradoc img {
+        width: inherit;
+    }
+
+    #doc-header-first img {
+        width: 114px;
+    }
+
+    .doc-nav-content {
+        max-width: 100%;
+    }
+
+    .naya {
+        max-width: 100%;
+    }
+
+    .index {
+        gap: 2%;
+    }
+
+    #doc-header-first {
+        justify-content: start;
+    }
+
+    .index-right {
+        display: block;
+    }
+
+}
 
 
 @media (max-width: 800px) {
-    .main-page-content2 div{
+
+    .doc-header-sec a {
+        display: none;
+    }
+
+    .doc-nav-content {
+        justify-content: space-between;
+    }
+    .clinic {
+        width: 438px;
+    }
+
+    .time {
+        justify-content: stretch;
+        gap: 100px;
+    }
+    .index-right img {
+        display: none;
+    }
+
+    .main-page--photo0 {
+        display: block;
+        margin-left: 40px;
+        display: block;
+        width: 90%;
+        text-align: center;
+    }
+
+    .index-left p {
+        width: auto;
+    }
+
+    .main-page-content2 div {
         width: 200px;
     }
 
+    .swiper-slide img {
+        width: 96%;
+    }
     .index-left {
         width: 655px;
         padding: 10px;
     }
+
     .doc-details {
         width: 780px;
     }
-    .box{
+
+    .box {
         display: none;
     }
-    .newdiv{
+
+    .newdiv {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        margin-bottom: 20px;
     }
-    .section2-info{
+
+    .section2-info {
         display: none;
+    }
+
+    .doc-list-item {
+        width: 280px;
+    }
+
+    .review-p {
+        display: none;
+    }
+
+    .review-p1 {
+        display: block;
+    }
+
+    .main-page-content2 p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23.38px;
+        width: 200px;
+    }
+
+    footer {
+        display: block;
+        padding: 16px;
+    }
+
+    #main-last-btn {
+        margin-left: -9%;
     }
 }
 
 
 @media (max-width: 500px) {
 
-    .newdiv{
+    .main-page--photo0 {
         display: none;
     }
-    .index-left{
+
+    .newdiv {
+        display: none;
+    }
+
+    .index-left {
         width: 282px;
         margin: 16px;
     }
+
     .doc-nav-content {
         padding: 0;
         max-width: 100%;
     }
-    
+
 
     .doc-header-sec a {
         display: none;
@@ -48,6 +172,7 @@
     .doc-nav-btn1 {
         display: none;
     }
+
     #LOGO {
         width: 24%;
     }
@@ -57,7 +182,7 @@
     }
 
     .doc-nav-item {
-        gap: 130px;
+        gap: 323px;
         justify-content: center;
     }
 
@@ -71,11 +196,11 @@
         line-height: 55.68px;
     }
 
-    .index-right img{
+    .index-right img {
         display: none;
     }
 
-   .main-page--photo1{
+    .main-page--photo1 {
         width: 290px;
         display: block;
     }
@@ -84,7 +209,9 @@
         font-weight: 400;
         line-height: 27.7px;
     }
-    .clinic{
+
+    .clinic {
+        width: 275px;
         display: block;
         text-align: center;
     }
@@ -105,7 +232,7 @@
         font-weight: 600;
     }
 
-    
+
     .time {
         margin-top: 10%;
         display: block;
@@ -116,9 +243,11 @@
         font-weight: 500;
         line-height: 24px;
     }
+
     .main-page-header {
         padding: 5px;
-      }
+    }
+
     .PIC22 {
         display: none;
     }
@@ -139,6 +268,9 @@
         top: 0px;
         left: 46px;
     }
+    .swiper-slide img {
+        width: 90%;
+    }
 
     .naya {
         max-width: 100%;
@@ -150,10 +282,18 @@
     }
 
     .box {
+        display: block;
         flex-direction: column;
     }
+
     .doc-details {
         width: 315px;
+    }
+
+    .doc-list-item {
+        align-items: center;
+        margin: auto;
+        margin-bottom: 20px;
     }
 
     .section2 {
@@ -166,6 +306,7 @@
     }
 
     .section2-info {
+        display: block;
         flex-direction: column;
     }
 
@@ -197,6 +338,11 @@
         border-radius: 10%;
         margin-bottom: 1%;
     }
+    .main-page-content2 p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23.38px;
+    }
 
     .main-page-content3 {
         display: block;
@@ -209,15 +355,16 @@
         border-radius: 10px;
     }
 
-    .input-div{
+    .input-div {
         width: min-content;
         display: block;
     }
-    .contact-us form{
+
+    .contact-us form {
         width: auto;
     }
-    
-    .contact-us h1{
+
+    .contact-us h1 {
         font-size: 30px;
     }
 
@@ -251,6 +398,7 @@
     }
 
     #email {
+        width: 175px;
         position: relative;
     }
 
@@ -269,56 +417,59 @@
         justify-content: center;
         align-items: start;
     }
-    .contact-us input{
+
+    .contact-us input {
         width: 256px;
     }
-    footer{
+
+    footer {
         margin: 16px;
     }
-    .footer-last{
-        margin: 16px ;
-     }
-     .Mfooter-1content{
+
+    .footer-last {
+        margin: 16px;
+    }
+
+    .Mfooter-1content {
         width: 225px;
     }
 }
 
-@media (max-width: 1200px){
-    .pixle{
-        display: none;
+@media (max-width: 450px) {
+    .doc-nav-item {
+        gap: 252px;
+        justify-content: center;
     }
-    .hospital{
-        width: 100%;
-    }
-    .Mfooter-2content{
-        margin-right: 9px;
-    }
-   
-    .feedback img {
-        width: 100%;
-    }
-    .main-page-dusradoc img{
-        width: inherit;
-    }
-    #doc-header-first img{
-        width: 114px;
-    }
-    .doc-nav-content {
-        max-width: 100%;
-    }
-    .naya{
-        max-width: 100%;
-    }
-    .index{
-        gap: 2%;
-    }
-    #doc-header-first {
-        justify-content:start;
-    }
-    .index-right{
+    .clinic {
+        width: 245px;
         display: block;
+        text-align: center;
     }
+}
+
+@media (max-width: 375px) {
+    .doc-nav-item {
+        gap: 200px;
+        justify-content: center;
+    }
+
+    .doc-list-item {
+        width: 200px;
+    }
+
+    .doc-details-info {
+        width: 220px;
+    }
+    .swiper-slide img {
+        width: 100%;
+    }
+    
     
 }
 
-
+@media (max-width: 350px) {
+    .doc-nav-item {
+        gap: 147px;
+        justify-content: center;
+    }
+}
