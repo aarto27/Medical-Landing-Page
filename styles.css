@@ -264,16 +264,15 @@ a {
     align-items: center;
 }
 
-
- .doc-details-info {
+.doc-details-info {
     height: 200px;
-    width: 300px;
+    width: 260px;
     margin: 20px;
-     padding: 20px; 
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: start;
-} 
+}
 
 #doc-1 {
     background-color: #FFFFFF;
