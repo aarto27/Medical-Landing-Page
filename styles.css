@@ -122,15 +122,18 @@ a {
 }
 
 .index-left p {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 400;
-    line-height: 32.62px;
+    line-height: 24.62px;
     color: #062126B2;
-    width: 65%;
+    width: 75%;
 }
 
 .index-right img {
     width: 90%;
+}
+.main-page--photo0{
+    display: none;
 }
 
 .First{
@@ -180,9 +183,8 @@ a {
 
 .time {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 16px;
 }
 
 #right-arrow {
@@ -224,13 +226,16 @@ a {
 }
 
 .naya {
-    max-width: 80%;
+    max-width: 1073px;
     margin: 0 auto;
 }
 
 .swiper {
     width: 100%;
     padding: 20px 0;
+}
+.swiper-slide img{
+    width: 350px;
 }
 
 .main-page-dusradoc img {
@@ -240,6 +245,7 @@ a {
     object-fit: cover;
     border-radius: 10px;
 }
+
 
 .main-page-header h1 {
     margin-right: auto;
@@ -258,15 +264,16 @@ a {
     align-items: center;
 }
 
-.doc-details-info {
+
+ .doc-details-info {
+    height: 200px;
+    width: 300px;
     margin: 20px;
+     padding: 20px; 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 252px;
-    height: 193px;
-}
+    align-items: start;
+} 
 
 #doc-1 {
     background-color: #FFFFFF;
@@ -282,11 +289,6 @@ a {
     color: #062126;
 }
 
-.Section-2{
-    background: url('blured.jpg') no-repeat center center/cover;
-    background-size: cover;
-    z-index: -1;
-}
 
 .Section-2 h1 {
     font-size: 40px;
@@ -334,6 +336,14 @@ a {
     line-height: 10px;
 }
 
+
+.doc2{
+    background-color: #FFFFFF;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 30px 76px 0px #AA470F42;
+}
 
 .doc-pic{
     align-items: start;
@@ -392,11 +402,19 @@ a {
     align-items: center;
     background-color: #CF7D4E0D;
     gap: 16px;
-    border-radius: 10px;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .main-page-content2 div {
     width: 300px;
+}
+.main-page-content2 p{
+    width: 300px;
+    color: #062126B2;
+}
+.review-p1 {
+    display: none;
 }
 
 .contact-us h1 {
@@ -495,7 +513,7 @@ footer {
 
 .footer-2c {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
 }
 
 .foot-fig {
@@ -509,6 +527,7 @@ footer {
     border-radius: 50%;
 }
 
+
 .main-page-p {
     color: #062126B2;
     margin-bottom: 30px;
@@ -516,15 +535,31 @@ footer {
     font-size: 16px;
 }
 
+.main-page-p2 {
+    color: #062126;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0px;
+}
+
 .Mfooter-2content p,
 a {
     color: #06212699;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 27px;
 }
 
 .Mfooter-1content {
     width: 215px;
+}
+
+.Mfooter-3content p{
+    color: #06212699;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    width: 226px;
 }
 
 #email {
@@ -561,10 +596,11 @@ a {
     color: #062126B2;
     font-size: 14px;
     font-weight: 400;
-    line-height: 9.38px;
+    line-height: 21.38px;
 }
 
 .box p {
+    width: 230px;
     color: #062126B2;
     font-size: 14px;
     font-weight: 400;
@@ -572,17 +608,11 @@ a {
 }
 
 .doc-details {
-    width: 950px;
+    width: 1073px;
     margin: 0 auto;
 }
 
-.doc-details-info {
-    margin: 20px;
-    /* padding: 20px; */
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-}
+
 
 .shield-border {
     align-self: start;
