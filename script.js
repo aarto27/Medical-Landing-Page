@@ -10,13 +10,13 @@ document.getElementById("send").addEventListener("click", function(){
 // JS for PopUp
 let popBtn = document.querySelector("#popbtn");
 let popUp = document.querySelector("#popup");
-let close = document.querySelector(".close");
+let close = document.querySelector(".nav-a2");
 
 
 popBtn.addEventListener("click", function(){
   popUp.style.display = "block";
 });
 
-// close.addEventListener("click", function(){
-//   popUp.style.display = "none";
-//   });
+close.addEventListener("click", function(){
+  popUp.style.display = "none";
+  });
