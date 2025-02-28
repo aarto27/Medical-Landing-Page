@@ -87,10 +87,10 @@ a {
 /*Pop Up CSS */
 #popup {
     display: none;
-    height: 350px;
+    height: 100vh;
     width: 456px;
     position: absolute;
-    top: 46%;
+    top: 54%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
