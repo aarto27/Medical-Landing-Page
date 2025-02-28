@@ -297,6 +297,10 @@ input textarea:focus {
     border: rgba(137, 243, 251, 0.178);
 }
 
+.footer{
+    background-color: #90e8fc12;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
