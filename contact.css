@@ -64,6 +64,48 @@ body {
     margin: 0;
 }
 
+/*Pop Up CSS */
+#popup {
+    display: none;
+    height: 100vh;
+    width: 456px;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+#header-first {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.nav-menu2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.nav-a2{
+    text-decoration: none;
+    border: 2px solid lightblue;
+    padding: 6px;
+    margin: 8px;
+    border-radius: 50%;
+}
+
+.menu a {
+    text-decoration: none;
+    display: flex;
+    line-height: 40px;
+}
+
 .doc-nav-btn {
     color: white;
     padding: 10px;
@@ -78,11 +120,18 @@ body {
 .doc-img {
     margin: 0;
     padding: 0;
-}
-
-.doc-img img {
     width: 100%;
 }
+.px1200{
+    display: none;
+    width: 100%;
+}
+
+.px800{
+    display: none;
+    width: 100%;
+}
+
 .section {
     max-width: 95%;
     padding: 0;
@@ -94,19 +143,19 @@ body {
     font-weight: 700;
 }
 #whyus{
+    font-family:'Poppins';
     font-size: 40px;
     font-weight: 700;
     color: #062126;
 }
 
+
 .contact-us {
     background-color: #FFFFFF;
     margin: 80px auto;
-    max-width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
 }
 
 .contact-us form {
@@ -114,29 +163,44 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 638px;
+    /* width: 638px; */
 }
 
 .input-div {
     display: flex;
-    gap: 20px;
-    height: 3%;
+    /* gap: 20px; */
+    /* height: 3%; */
 }
 
+/* .date-time{
+    align-items: center;
+}
+#time{
+    position: relative;
+    left: -5%;
+}
+#date{
+    position: relative;
+    left: -3%;
+}*/
+
 .doc-p-input {
+    height: 100%;
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #F7F7F7;
 }
 
 .contact-us input {
+    width: 300px;
     padding: 20px;
+    padding-left: 30px;
     border: 1px solid #0000000d;
     border-radius: 10px;
-    width: 100%;
     margin: 10px;
+    outline: none;
     transition: border-color 0.3s ease;
+    background-color: #F7F7F7;
 }
 
 .doc-p-btn {
@@ -153,13 +217,14 @@ body {
     border-radius: 35px;
 }
 
-#description{
+#description {
     padding: 20px;
     border: 1px solid #0000000D;
     border-radius: 10px;
     margin: 10px;
     outline: none;
     transition: 0.3s ease;
+    background-color: #F7F7F7;
 }
 
 input textarea:focus {
@@ -212,6 +277,10 @@ footer {
     list-style: none;
     padding: 0;
     margin: 0;
+   
+}
+.Mfooter-2content{
+    padding-left: 10px;
 }
 
 .Mfooter-2content p,
@@ -223,10 +292,19 @@ a {
 
 .Mfooter-1content{
     width: 215px;
+    padding-left: 10px;
+}
+
+.Mfooter-3content p{
+    color: #062126B2;
+}
+.Mfooter-3content {
+    padding-left: 11px;
 }
 
 
 #email {
+    width: 250px;
     background-color: #12CCF41A;
     padding: 15px;
     border-radius: 30px;
@@ -295,6 +373,12 @@ a {
         justify-content: center;
         gap: 7%;
     }
+    .doc-img{
+        display: none;
+    }
+    .px1200{
+        display: block;
+    }
 }
 
 
@@ -311,6 +395,17 @@ a {
     .nav-a {
         display: block;
     }
+    .px1200{
+        display: none;
+    }
+    .px800{
+        display: block;
+    }
+    #popup {
+        width: 100%;
+        height: 100vh;
+        margin: 7px;    
+    }
     #doc-header-first{
         gap: 0;
     }
@@ -323,7 +418,7 @@ a {
     .doc-list-item{
         display: block;
     }
-    .doc-img img {
+    .doc-img{
         height: 100px;
     }
 
@@ -358,7 +453,6 @@ a {
         width: 100%;
         align-items: start;
         justify-content: start;
-        padding: 0;
     }
 
     .footer-1c {
@@ -372,9 +466,6 @@ a {
         font-size: 26px;
     }
 
-    .Mfooter-3content {
-        width: 80%;
-    }
 
     .Mfooter-3content list {
         font-size: 17px;
@@ -398,9 +489,6 @@ a {
         position: relative;
         justify-content: center;
         align-items: start;
-    }
-    footer{
-        margin: 0px;
     }
     .footer-last{
         margin: 16px ;
