@@ -23,11 +23,28 @@
                         <a href="contact.html"> Contact us</a>
                     </div>
                 </div>
-                <div class="nav-a">
-                    <a href="menu.html" class="nav-menu">
-                        <img src="./photo/Category.png" alt="">
-                    </a>
-                </div>
+                <img src="./photo/Category.png" alt="" class="nav-a" id="popbtn">   
+                <button class="doc-nav-btn doc-nav-btn1" id="Appointment">
+                    Make Appointment
+                </button> 
+        </div>
+    </div>
+    <div id="popup" class="modal">
+        <div class="nav-menu2">
+            <div id="header-first">
+                <img src="./photo/Vector.png" alt="Logo">
+                <h2>Medicine<img src="./photo/Vectordot.png"></h2>
+            </div>
+            <img src="./photo/Close Square.svg" alt="" class="nav-a2">
+        </div>
+        <div class="menu">
+            <a href="index.html"> - Home</a>
+            <a href="service.html"> - Our Services</a>
+            <a href="doctor.html"> - Blog</a>
+            <a href="about.html"> - About us</a>
+            <a href=""> - Contact us</a>
+        </div>
+    </div>
                 <div class="doc-nav-btn">
                     <button class="doc-nav-btn">
                         Make Appointment &#x2192;
@@ -36,10 +53,10 @@
             </div>
         </nav>
     </header><br>
-    <figure class="doc-img">
-        <img src="conatact.png" alt="Doctor">
-    </figure>
-    <div class="section">
+        <img src="conatact.png" alt="Doctor" class="doc-img">
+        <img src="contact1.png" alt="Doctor" class="px1200">
+        <img src="contact2.png" alt="doctor" class="px800">
+    <div class="Section-">
         <article class="contact-us">
             <h1>Make Appointment</h1>
             <form>
@@ -51,14 +68,24 @@
                     <input type="email" name="Email" id="Email" placeholder="Email" class="doc-p-input">
                     <input type="number" name="number" id="number" placeholder="Phone" class="doc-p-input">
                 </div>
-                <div class="input-div">
-                    <input type="time" name="time" id="name" placeholder="Time" class="doc-p-input">
-                    <input type="number" name="date" id="date" placeholder="Date" class="doc-p-input">
+                <div class="input-div date-time">
+                    <div style="position: relative;" class="datetime">
+                        <input type="number" name="date" id="date" placeholder="Appointment Date">
+                        <img src="./photo3/inputcalendar.png"
+                            style="position: absolute; left: 15px; top: 30px; width: 20px;">
+                    </div>
+
+                    <div style="position: relative;" class="datetime">
+                        <input type="number" name="time" id="time" placeholder="Appointment Time">
+                        <img src="./photo3/Time Circle.svg"
+                            style="position: absolute; left: 15px; top: 30px; width: 20px;">
+                    </div>
                 </div>
-                <textarea id="description" rows="7" name="description" placeholder="Describe what you’re looking for..."
-                    class="doc-p-input"></textarea><br>
+                <textarea id="description" rows="7" name="description"
+                    placeholder="Describe what you’re looking for..." class="doc-p-input"></textarea><br>
+
             </form>
-            <button type="button" class="doc-p-btn">Send<img src="./photo/Send.png"></button>
+            <button type="button" class="doc-p-btn" id="send">Send<img src="./photo/Send.png"></button>
         </article>
         <footer>
             <div class="Mfooter-1content">
