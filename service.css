@@ -560,6 +560,11 @@ a {
     .doc-details {
         width: 743px;
     }
+    #popup {
+        width: 100%;
+        height: 100vh;
+        margin: 7px;    
+    }
 
     #email {
         width: 178px;
