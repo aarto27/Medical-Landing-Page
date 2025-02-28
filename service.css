@@ -45,6 +45,49 @@ body {
     color: #E5661E;
 }
 
+
+/*Pop Up CSS */
+#popup {
+    display: none;
+    height: 100vh;
+    width: 456px;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+#header-first {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.nav-menu2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.nav-a2{
+    text-decoration: none;
+    border: 2px solid lightblue;
+    padding: 6px;
+    margin: 8px;
+    border-radius: 50%;
+}
+
+.menu a {
+    text-decoration: none;
+    display: flex;
+    line-height: 40px;
+}
+
 .nav-a {
     display: none;
     text-decoration: none;
@@ -404,6 +447,7 @@ a {
 }
 
 .doc-details-info {
+    width: 300px;
     margin: 20px;
     padding: 20px;
     display: flex;
@@ -488,7 +532,7 @@ a {
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
     .doc-nav-item {
         display: flex;
         gap: 10px;
