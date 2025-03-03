@@ -15,6 +15,10 @@ h1{
     font-family: 'Poppins', sans-serif;
 }
 
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+
 .moon {
     display: none;
 }
@@ -173,7 +177,7 @@ h1{
     font-size: 20px;
     font-weight: 400;
     line-height: 24.62px;
-    color: #062126B2;
+    color: #001316b2;
     width: 75%;
 }
 
