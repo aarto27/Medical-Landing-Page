@@ -32,7 +32,7 @@ h3{
 }
 .doc-nav-item {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -668,8 +668,6 @@ a {
     width: 1073px;
     margin: 0 auto;
 }
-
-
 
 .shield-border {
     align-self: start;
