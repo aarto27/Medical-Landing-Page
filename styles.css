@@ -23,6 +23,9 @@ h1{
     padding: 10px;
 }
 
+.main-page-item h3{
+    color: #062126CC;
+}
 .doc-nav-item {
     display: flex;
     justify-content: center;
