@@ -204,8 +204,9 @@
     }
 
     .index-left h1 {
-        font-size: 48px;
+        font-size: 41px;
         line-height: 55.68px;
+        font-weight: 700;
     }
 
     .index-right img {
