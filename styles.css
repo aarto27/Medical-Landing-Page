@@ -224,6 +224,10 @@ h3{
 }
 
 .main-btn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     font-size: larger;
     font-weight: bolder;
     color: white;
