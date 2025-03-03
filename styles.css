@@ -154,13 +154,13 @@ a {
     justify-content: center;
     align-items: center;
 }
-
 .index-left h1 {
     font-size: 72px;
-    font-weight: 700;
-    line-height: 83.52px;
-    width: 99%;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2;
 }
+
 
 .index-left p {
     font-size: 17px;
