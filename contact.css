@@ -9,6 +9,11 @@ body {
     padding: 0;
 }
 
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
 .doc-nav-content {
     max-width: 70%;
     margin: 0 auto;
