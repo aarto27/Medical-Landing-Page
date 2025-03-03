@@ -9,6 +9,10 @@ body {
     padding: 0;
 }
 
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
 .main {
     text-align: start;
 }
@@ -669,6 +673,10 @@ a {
         width: 390px;
     }
 
+    .doc-details-info {
+        width: 260px;
+    }
+
     .service-time-p p {
         font-size: 11px;
         font-weight: 900;
@@ -741,6 +749,10 @@ a {
         justify-content: start;
         align-items: start;
         margin-left: 10px;
+    }
+
+    .Mfooter-3content p {
+        width: auto;
     }
 
     .footer-last-doc {
