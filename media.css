@@ -7,6 +7,11 @@
         display: none;
     }
 
+    .clinic h3{
+        font-size: 16px;
+        width: 190px;
+    }
+
     .hospital {
         width: 100%;
     }
@@ -62,7 +67,7 @@
         align-items: center;
     }
     .clinic {
-        width: 438px;
+        width: 500px;
     }
 
     .time {
@@ -403,8 +408,8 @@
         font-size: 26px;
     }
 
-    .Mfooter-3content {
-        width: 80%;
+    .Mfooter-3content p {
+      width: auto;
     }
 
     .Mfooter-3content list {
