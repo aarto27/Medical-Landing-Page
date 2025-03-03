@@ -447,14 +447,12 @@ a {
     gap: 16px;
     padding: 20px;
     border-radius: 20px;
+    width: 368px;
 }
 
-.main-page-content2 div {
-    width: 300px;
-}
+
 
 .main-page-content2 p {
-    width: 300px;
     color: #062126B2;
 }
 
