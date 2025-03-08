@@ -347,17 +347,20 @@ h3{
     color: #062126;
 }
 
-
-
 .Section-2 h1 {
     font-size: 40px;
     font-weight: 700;
     color: #062126;
 }
 
+.Section-2{
+    background-color: #CF7D4E0D;
+     margin: 0 auto;
+}
+
 .section2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -375,9 +378,9 @@ h3{
 
 .section2-info {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    gap: 14px;
+    gap: 25px;
 }
 
 .doc-list-item {
