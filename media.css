@@ -392,6 +392,9 @@
     .contact-us h1 {
         font-size: 30px;
     }
+    #description {
+        padding: 10px;
+    }
 
     footer {
         flex-direction: column;
