@@ -271,6 +271,7 @@ h3{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 
 .main-page-header div h1 {
@@ -350,6 +351,7 @@ h3{
     font-size: 40px;
     font-weight: 700;
     color: #062126;
+    padding: 20px;
 }
 
 .Section-2 h1 {
