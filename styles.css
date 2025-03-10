@@ -18,6 +18,10 @@ h1{
 h3{
     font-family: 'Poppins', sans-serif;
 }
+.hospital{
+    width: 59%;
+    margin: 0 auto;
+}
 
 .moon {
     display: none;
@@ -140,7 +144,8 @@ h3{
 
 .doc-nav-btn {
     color: white;
-    padding: 20px;
+    padding: 18px;
+    width: 160px;
     border: none;
     background-color: #24BEE0;
     border-radius: 100px;
@@ -182,9 +187,9 @@ h3{
     width: 75%;
 }
 
-.index-right img {
+/* .index-right img {
     width: 90%;
-}
+} */
 
 .main-page--photo0 {
     display: none;
@@ -283,10 +288,10 @@ h3{
     cursor: pointer;
 }
 
-.naya {
+/* .naya {
     max-width: 1073px;
     margin: 0 auto;
-}
+} */
 
 .swiper {
     width: 100%;
@@ -356,6 +361,7 @@ h3{
 .Section-2{
     background-color: #a9a9a918;
      margin: 0 auto;
+     padding-bottom: 100px;
 }
 
 .section2 {
