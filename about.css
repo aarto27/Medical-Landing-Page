@@ -346,15 +346,12 @@ h1{
     font-weight: 700;
     color: #062126;
 }
-
 .contact-us {
     background-color: #FFFFFF;
     margin: 80px auto;
-    max-width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
 }
 
 .contact-us form {
@@ -362,31 +359,30 @@ h1{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 638px;
 }
 
 .input-div {
     display: flex;
-    gap: 20px;
-    height: 3%;
 }
 
 .doc-p-input {
+    height: 100%;
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #F7F7F7;
 }
 
 .contact-us input {
+    width: 300px;
     padding: 20px;
+    padding-left: 30px;
     border: 1px solid #0000000d;
     border-radius: 10px;
-    width: 100%;
     margin: 10px;
+    outline: none;
     transition: border-color 0.3s ease;
+    background-color: #F7F7F7;
 }
-
 .doc-p-btn {
     color: white;
     font-size: 14px;
@@ -408,6 +404,7 @@ h1{
     margin: 10px;
     outline: none;
     transition: 0.3s ease;
+    background-color: #F7F7F7;
 }
 
 input textarea:focus {
@@ -557,6 +554,9 @@ a {
 
     .doc-nav-item {
         width: 100%;
+    }
+    .section2-info {
+        width: auto;
     }
 }
 
@@ -771,7 +771,7 @@ a {
     }
 
     .section2 h1 {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .section2-info {
