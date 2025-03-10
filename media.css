@@ -120,6 +120,12 @@
     .section2-info {
         display: none;
     }
+    .feedback {
+        display: none;
+    }
+    .feedback1{
+        display: block;
+    }
 
     .doc-list-item {
         width: 280px;
