@@ -85,6 +85,11 @@ h1{
     margin: 8px;
     border-radius: 50%;
 }
+nav{
+    width: 76%;
+    margin: auto;
+}
+
 
 .menu a {
     text-decoration: none;
@@ -207,6 +212,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 40px;
 }
 
 .carousel-item p {
@@ -509,6 +515,9 @@ a {
 }
 
 @media (max-width: 1000px) {
+    nav{
+        width: 100%;
+    }
     .doc-nav-item {
         display: flex;
         gap: 10px;
@@ -531,6 +540,9 @@ a {
 
     .footer-last {
         gap: 10%;
+    }
+    .doc-nav-content{
+        justify-content: space-between;
     }
 }
 
