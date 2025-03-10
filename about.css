@@ -34,6 +34,7 @@ h1{
 .doc-nav-content {
     display: flex;
     justify-content: space-evenly;
+    padding: 10px;
 }
 
 .doc-header-sec a {
