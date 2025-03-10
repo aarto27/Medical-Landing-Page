@@ -15,7 +15,7 @@ h1{
 }
 
 .doc-nav-content {
-    max-width: 70%;
+    max-width: 60%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
