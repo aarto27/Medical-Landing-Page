@@ -65,8 +65,7 @@ links.forEach((link) => {
     }
 });
 
-document.addEventListener("DOMContentLoaded", (e) => {
-  // e.stopPropagation();
+document.addEventListener("DOMContentLoaded", () => {
   const observer = new IntersectionObserver((entries) => {
     
       entries.forEach(entry => {
