@@ -28,7 +28,8 @@ h3{
 }
 
 .doc-nav-content {
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .main-page-item h3{
