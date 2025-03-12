@@ -78,8 +78,13 @@ document.addEventListener("DOMContentLoaded", () => {
   }, { threshold: 0.1 });
 
   document.querySelectorAll(".box").forEach(element => {
-
-      observer.observe(element);
+    observer.observe(element);
   });
+  document.querySelectorAll(".index-left").forEach(element => {
+    observer.observe(element);
+  });
+  document.querySelectorAll(".index-right").forEach(element => {
+    observer.observe(element);
+    });
 });
 
