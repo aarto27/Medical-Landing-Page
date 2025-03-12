@@ -180,6 +180,18 @@ h3{
     line-height: 1.2;
 }
 
+.index-left{
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+    position: relative;
+    transform: translateX(-10%); 
+}
+
+
+.index-left.show{ 
+    opacity: 1;
+    transform: translateX(0);
+}
 
 .index-left p {
     font-size: 20px;
@@ -189,9 +201,16 @@ h3{
     width: 75%;
 }
 
-/* .index-right img {
-    width: 90%;
-} */
+.index-right{
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+    position: relative;
+    transform: translateX(10%); 
+}
+.index-right.show{ 
+    opacity: 1;
+    transform: translateX(0);
+}
 
 .main-page--photo0 {
     display: none;
