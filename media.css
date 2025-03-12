@@ -184,6 +184,9 @@
         width: 282px;
         margin: 16px;
     }
+    .index-right {
+        display: none;
+    }
 
     .doc-nav-content {
         padding: 0;
