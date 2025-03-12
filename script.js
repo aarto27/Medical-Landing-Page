@@ -65,8 +65,10 @@ links.forEach((link) => {
     }
 });
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", (e) => {
+  // e.stopPropagation();
   const observer = new IntersectionObserver((entries) => {
+    
       entries.forEach(entry => {
           if (entry.isIntersecting) {
               entry.target.classList.add("show");
@@ -77,6 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }, { threshold: 0.1 });
 
   document.querySelectorAll(".box").forEach(element => {
+
       observer.observe(element);
   });
 });
