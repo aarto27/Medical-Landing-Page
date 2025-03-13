@@ -130,21 +130,20 @@ h1{
     align-items: center;
     gap: 3%;
     padding: 10px;
-    opacity: 0;
-    transition: all 0.7s ease-in-out;
-    position: relative;
-    transform: translateY(10%);
+  
 }
-
-
-.doc-list-item.show {
-    opacity: 1;
-    transform: translateY(0);
-    }
 
 .doc-img1 {
     width: 25%;
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+    position: relative;
+    transform: translateX(-10%);
 }
+.doc-img1.show {
+    opacity: 1;
+    transform: translateX(0);
+    }
 
 .landing-img{
     width: 100%;
@@ -167,7 +166,17 @@ h1{
     justify-content: center;
     gap: 5px;
     border-radius: 20px;
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+    position: relative;
+    transform: translateY(2%);
 }
+
+
+.doc-paa.show {
+    opacity: 1;
+    transform: translateY(0);
+    }
 
 .doc-det-h1 {
     color: #CF7D4E;
@@ -182,7 +191,16 @@ h1{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+    position: relative;
+    transform: translateX(10%);
 }
+
+.doc-info.show {
+    opacity: 1;
+    transform: translateX(0);
+    }
 
 .doc-info p1 {
     color: #CF7D4E;
