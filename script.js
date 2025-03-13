@@ -86,5 +86,8 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".index-right").forEach(element => {
     observer.observe(element);
     });
+    document.querySelectorAll("form").forEach(element => {
+      observer.observe(element);
+      });
 });
 
