@@ -74,7 +74,7 @@
         justify-content: stretch;
         gap: 100px;
     }
-    .index-right img {
+    .index-right {
         display: none;
     }
 
