@@ -648,7 +648,7 @@ a {
 
     .doc-list-item {
         display: block;
-    }
+    }   
 
     .doc-img {
         height: 100px;
@@ -814,7 +814,8 @@ a {
 
 @media (max-width: 350px) {
 
-    /* .carousel-item img {
+    /* 
+    .carousel-item img {
         width: 313px;
     }
 
@@ -825,7 +826,8 @@ a {
 
     .contact-us h1 {
         font-size: 30px;
-    } */
+    } 
+    */
     .carousel-item {
         width: 300px;
     }
