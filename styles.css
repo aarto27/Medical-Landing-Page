@@ -287,13 +287,6 @@ h3{
 
 .main-page-content3 {
     display: none;
-    display: flex;
-    align-items: center;
-    background-color: #CF7D4E0D;
-    gap: 16px;
-    padding: 20px;
-    border-radius: 20px;
-    width: 368px;
 }
 
 .main-page-header {
