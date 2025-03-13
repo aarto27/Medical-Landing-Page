@@ -36,7 +36,6 @@ h1{
     justify-content: center;
     align-items: center;
 }
-
 .doc-header-sec a {
     padding: 7px;
     font-size: 16px;
@@ -45,7 +44,8 @@ h1{
     transition: 0.3s ease-in-out;
 }
 
-.doc-header-sec a:hover {
+.doc-header-sec a:hover, 
+.doc-header-sec a.active {
     color: #E5661E;
 }
 
@@ -86,7 +86,7 @@ h1{
     border-radius: 50%;
 }
 nav{
-    width: 76%;
+    width: 70%;
     margin: auto;
 }
 
@@ -101,8 +101,8 @@ nav{
     display: none;
     text-decoration: none;
     border: 2px solid lightblue;
-    padding: 10px;
-    margin: 15px;
+    padding: 6px;
+    margin: 8px;
     border-radius: 50%;
 }
 
@@ -633,6 +633,7 @@ a {
 
     .doc-img {
         height: 100px;
+        padding-bottom: 50px;
     }
 
     .doc-list {
@@ -821,7 +822,7 @@ a {
     }
 
     .contact-us h1 {
-        font-size: 33px;
+        font-size: 30px;
     }
 
 }
