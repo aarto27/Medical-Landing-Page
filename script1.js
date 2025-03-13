@@ -43,31 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   }, { threshold: 0.1 });
 
-    document.querySelectorAll(".carousel-item").forEach(element => {
-      observer.observe(element);
-      });
-      document.querySelectorAll(".box").forEach(element => {
-        observer.observe(element);
-      });
-      document.querySelectorAll(".carousel").forEach(element => {
-        observer.observe(element);
-      });
-      document.querySelectorAll(".section-1-info").forEach(element => {
-        observer.observe(element);
-      });
-      document.querySelectorAll(".section2-info").forEach(element => {
-        observer.observe(element);
-      });
-      document.querySelectorAll(".doc-list").forEach(element => {
-        observer.observe(element);
-      });
-      document.querySelectorAll(".doc-img1").forEach(element => {
-        observer.observe(element);
-      });
-      document.querySelectorAll(".doc-paa").forEach(element => {
-        observer.observe(element);
-      });
-      document.querySelectorAll(".doc-info").forEach(element => {
-        observer.observe(element);
-      });
+  const elementsToObserve = document.querySelectorAll(
+    ".carousel-item, .box, .carousel, .section-1-info, .section2-info, .doc-list, .doc-img1, .doc-paa, .doc-info"
+  );
+
+  elementsToObserve.forEach(element => observer.observe(element));
 });
