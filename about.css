@@ -9,7 +9,7 @@ body {
 }
 
 
-h1{
+h1 {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -44,7 +44,7 @@ h1{
     transition: 0.3s ease-in-out;
 }
 
-.doc-header-sec a:hover, 
+.doc-header-sec a:hover,
 .doc-header-sec a.active {
     color: #E5661E;
 }
@@ -141,7 +141,7 @@ h1{
     opacity: 0;
     transition: all 0.7s ease-in-out;
     position: relative;
-    transform: translateY(-10%); 
+    transform: translateY(-10%);
 }
 
 .carousel.show {
@@ -172,13 +172,13 @@ h1{
     opacity: 0;
     transition: all 0.7s ease-in-out;
     position: relative;
-    transform: translateX(-10%); 
+    transform: translateX(-10%);
 }
 
 .section-1-info.show {
     opacity: 1;
     transform: translateX(0);
-    }
+}
 
 .section-1 img {
     height: 216px;
@@ -228,10 +228,11 @@ h1{
     justify-content: space-around;
     align-items: center;
 }
-.Section-2{
+
+.Section-2 {
     background-color: #a9a9a918;
-     margin: 0 auto;
-     padding-bottom: 100px;
+    margin: 0 auto;
+    padding-bottom: 100px;
 }
 
 .main-btn2 {
@@ -256,13 +257,13 @@ h1{
     opacity: 0;
     transition: all 0.7s ease-in-out;
     position: relative;
-    transform: translateY(10%); 
+    transform: translateY(10%);
 }
 
 .section2-info.show {
     opacity: 1;
     transform: translateY(0);
-    }
+}
 
 .doc-list-item {
     width: 270px;
@@ -280,23 +281,24 @@ h1{
     line-height: 10px;
 }
 
-.doc-list{
+.doc-list {
     opacity: 0;
     transition: all 0.7s ease-in-out;
     position: relative;
-    transform: translateY(10%); 
+    transform: translateY(10%);
 }
 
 .doc-list.show {
     opacity: 1;
     transform: translateY(0);
-    }
+}
 
 .doc2 {
     background-color: #FFFFFF;
     border: none;
+    height: 260px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 25px;
     box-shadow: 0px 30px 76px 0px #AA470F42;
 }
 
@@ -368,7 +370,7 @@ h1{
     width: 405px;
 }
 
-.main-page-content3{
+.main-page-content3 {
     display: none;
 }
 
@@ -393,6 +395,7 @@ h1{
     font-weight: 700;
     color: #062126;
 }
+
 .contact-us {
     background-color: #FFFFFF;
     margin: 80px auto;
@@ -430,6 +433,7 @@ h1{
     transition: border-color 0.3s ease;
     background-color: #F7F7F7;
 }
+
 .doc-p-btn {
     color: white;
     font-size: 14px;
@@ -602,6 +606,7 @@ a {
     .doc-nav-item {
         width: 100%;
     }
+
     .section2-info {
         width: auto;
     }
@@ -663,6 +668,7 @@ a {
         max-width: 90%;
         margin: auto;
     }
+
     .Section-2 h1 {
         font-size: 34px;
     }
@@ -693,6 +699,7 @@ a {
     .main-page-content2 {
         display: none;
     }
+
     .main-page-content3 {
         display: flex;
         align-items: center;
@@ -702,7 +709,7 @@ a {
         gap: 16px;
         border-radius: 10px;
     }
-    
+
 
     /* Form */
     .input-div {
@@ -807,6 +814,7 @@ a {
     .section-1-info {
         display: block;
     }
+
     #photo102 {
         display: none;
     }
@@ -842,7 +850,7 @@ a {
 }
 
 @media (max-width: 1200px) {
-    #email{
+    #email {
         width: 207px;
     }
 }
