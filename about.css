@@ -138,6 +138,15 @@ h1{
     display: flex;
     justify-content: center;
     align-items: self-start;
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+    position: relative;
+    transform: translateY(-10%); 
+}
+
+.carousel.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .para p {
@@ -160,7 +169,16 @@ h1{
     display: flex;
     justify-content: center;
     gap: 20px;
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+    position: relative;
+    transform: translateX(-10%); 
 }
+
+.section-1-info.show {
+    opacity: 1;
+    transform: translateX(0);
+    }
 
 .section-1 img {
     height: 216px;
@@ -235,7 +253,16 @@ h1{
     justify-content: space-evenly;
     align-items: center;
     gap: 14px;
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+    position: relative;
+    transform: translateY(10%); 
 }
+
+.section2-info.show {
+    opacity: 1;
+    transform: translateY(0);
+    }
 
 .doc-list-item {
     width: 270px;
@@ -253,6 +280,17 @@ h1{
     line-height: 10px;
 }
 
+.doc-list{
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+    position: relative;
+    transform: translateY(10%); 
+}
+
+.doc-list.show {
+    opacity: 1;
+    transform: translateY(0);
+    }
 
 .doc2 {
     background-color: #FFFFFF;
