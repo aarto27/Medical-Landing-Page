@@ -28,3 +28,25 @@ popBtn.addEventListener("click", function(){
 close.addEventListener("click", function(){
   popUp.style.display = "none";
 });
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const observer = new IntersectionObserver((entries) => {
+    
+      entries.forEach(entry => {
+          if (entry.isIntersecting) {
+              entry.target.classList.add("show");
+          } else {
+              entry.target.classList.remove("show"); 
+          }
+      });
+  }, { threshold: 0.1 });
+
+    document.querySelectorAll(".carousel-item").forEach(element => {
+      observer.observe(element);
+      });
+      document.querySelectorAll(".box").forEach(element => {
+        observer.observe(element);
+      });
+});
