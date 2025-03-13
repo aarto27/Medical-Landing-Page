@@ -61,7 +61,13 @@ document.addEventListener("DOMContentLoaded", () => {
       document.querySelectorAll(".doc-list").forEach(element => {
         observer.observe(element);
       });
-      document.querySelectorAll(".doc-list-item").forEach(element => {
+      document.querySelectorAll(".doc-img1").forEach(element => {
+        observer.observe(element);
+      });
+      document.querySelectorAll(".doc-paa").forEach(element => {
+        observer.observe(element);
+      });
+      document.querySelectorAll(".doc-info").forEach(element => {
         observer.observe(element);
       });
 });
