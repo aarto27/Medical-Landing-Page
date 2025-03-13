@@ -100,7 +100,8 @@ h1{
     transition: 0.3s ease-in-out;
 }
 
-.doc-header-sec a:hover {
+.doc-header-sec a:hover, 
+.doc-header-sec a.active {
     color: #E5661E;
 }
 
@@ -129,7 +130,17 @@ h1{
     align-items: center;
     gap: 3%;
     padding: 10px;
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+    position: relative;
+    transform: translateY(10%);
 }
+
+
+.doc-list-item.show {
+    opacity: 1;
+    transform: translateY(0);
+    }
 
 .doc-img1 {
     width: 25%;
