@@ -49,4 +49,16 @@ document.addEventListener("DOMContentLoaded", () => {
       document.querySelectorAll(".box").forEach(element => {
         observer.observe(element);
       });
+      document.querySelectorAll(".carousel").forEach(element => {
+        observer.observe(element);
+      });
+      document.querySelectorAll(".section-1-info").forEach(element => {
+        observer.observe(element);
+      });
+      document.querySelectorAll(".section2-info").forEach(element => {
+        observer.observe(element);
+      });
+      document.querySelectorAll(".doc-list").forEach(element => {
+        observer.observe(element);
+      });
 });
