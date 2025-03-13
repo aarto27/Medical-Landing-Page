@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }, { threshold: 0.1 });
 
   const elementsToObserve = document.querySelectorAll(
-    ".carousel-item, .box, .carousel, .section-1-info, .section2-info, .doc-list, .doc-img1, .doc-paa, .doc-info"
+    ".carousel-item, .box, .carousel, .section-1-info, .section2-info, .doc-list, .doc-img1, .doc-paa, .doc-info, form"
   );
 
   elementsToObserve.forEach(element => observer.observe(element));
