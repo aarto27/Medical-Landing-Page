@@ -494,7 +494,7 @@
 
 @media (max-width: 450px) {
     .doc-nav-item {
-        gap: 252px;
+        gap: 200px;
         justify-content: center;
     }
     .clinic {
@@ -511,7 +511,7 @@
 
 @media (max-width: 375px) {
     .doc-nav-item {
-        gap: 200px;
+        gap: 73px;
         justify-content: center;
     }
 
@@ -536,7 +536,7 @@
 
 @media (max-width: 350px) {
     .doc-nav-item {
-        gap: 147px;
+        gap: 70px;
         justify-content: center;
     }
     #popup {
