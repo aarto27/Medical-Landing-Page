@@ -18,6 +18,7 @@ h1{
 h3{
     font-family: 'Poppins', sans-serif;
 }
+
 .hospital{
     width: 59%;
     margin: 0 auto;
@@ -51,7 +52,7 @@ h3{
 
 #doc-header-first {
     display: flex;
-    gap: 10px;
+    gap: 70px;
     justify-content: start; 
     align-items: center;
 }
