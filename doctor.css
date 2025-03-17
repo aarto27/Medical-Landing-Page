@@ -14,14 +14,13 @@ h1{
 .carousel {
     max-width: 70%;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .doc-nav-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 10px;
 }
 
 .doc-nav-item {
