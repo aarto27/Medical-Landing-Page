@@ -15,13 +15,19 @@ document.getElementById("send").addEventListener("click", function() {
 
 document.getElementById("appointmentForm").addEventListener("submit", function(e) {
   e.preventDefault(); 
-  let firstName = document.getElementById("name").value;
-  let lastName = document.getElementById("lname").value;
-  let email = document.getElementById("Email").value;
-  let phone = document.getElementById("number").value;
-  let appointmentDate = document.getElementById("date").value;
-  let appointmentTime = document.getElementById("time").value;
-  let description = document.getElementById("description").value;
+  let firstName = document.getElementById("name").value.trim();
+  let lastName = document.getElementById("lname").value.trim();
+  let email = document.getElementById("Email").value.trim();
+  let phone = document.getElementById("number").value.trim();
+  let appointmentDate = document.getElementById("date").value.trim();
+  let appointmentTime = document.getElementById("time").value.trim();
+  let description = document.getElementById("description").value.trim();
+
+
+  if (!firstName || !lastName || !email || !phone || !appointmentDate || !appointmentTime || !description) {
+    alert("All fields are required. Please fill out the missing fields.");
+    return; 
+  }
 
   console.log("First Name:", firstName);
   console.log("Last Name:", lastName);
