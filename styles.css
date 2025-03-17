@@ -155,7 +155,13 @@ h3{
     border-radius: 100px;
     cursor: pointer;
     font-weight: 800;
+    transition: transform 0.3s ease-in-out; 
 }
+
+.doc-nav-btn:hover {
+    transform: scale(1.03);
+    background-color: #1d9ab6;
+    }
 
 .main-page-item {
     display: flex;
@@ -265,7 +271,12 @@ h3{
     background-color: #24BEE0;
     border-radius: 100px;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out; 
 }
+.main-btn1:hover {
+    transform: scale(1.03);
+    background-color: #1897b3;
+    }
 
 .time {
     display: flex;
@@ -413,6 +424,13 @@ h3{
     background-color: transparent;
     border-radius: 100px;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.main-btn2:hover {
+    transform: scale(1.03);
+     color: #FFFFFF;
+     background-color: #CF7D4E;
 }
 
 .section2-info {
