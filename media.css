@@ -330,6 +330,7 @@
 
     .doc-details {
         width: 315px;
+        margin: auto;
     }
 
     .doc-list-item {
