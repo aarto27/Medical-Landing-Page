@@ -494,7 +494,7 @@
 
 @media (max-width: 450px) {
     .doc-nav-item {
-        gap: 200px;
+        gap: 170px;
         justify-content: center;
     }
     .clinic {
