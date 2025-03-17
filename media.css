@@ -148,6 +148,18 @@
     }
     .main-page-content3 {
         display: block;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #CF7D4E0D;
+        margin: 20px;
+        gap: 16px;
+        border-radius: 10px;
+    }
+
+    .main-page-content3 p {
+        color: #062126B2;
+        width: 300px;
     }
 
     .main-page-content2 p {
