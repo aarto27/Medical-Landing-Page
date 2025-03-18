@@ -575,6 +575,13 @@ h3{
 }
 
 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
 form{
     opacity: 0;
     transition: all 0.7s ease-in-out;
